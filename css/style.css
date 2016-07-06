@@ -1,0 +1,211 @@
+html,body{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow-y:scroll;
+    font-size:62.5%;
+    font-family: sans-serif;
+}
+/*Over ride Bootstrap heading margins*/
+/*body .h4, .h5, .h6, h4, h5, h6 {*/
+/*    margin-top: 0px;*/
+/*    margin-bottom: 0px;*/
+/*}*/
+
+.navbar.navbar-default{
+    position:fixed;
+    margin:0 auto;
+    color: #777;
+    width:100%;
+    z-index:10000;
+}
+
+.navbar.navbar-default .navbar-brand{
+    font-size:18px;
+    font-family: 'Lato',"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+ul.dropdown-menu{
+    margin:0;
+    padding:0;
+    background-color:#F8F8F8;
+    z-index:100;
+}
+
+#bs-example-navbar-collapse-1{
+    text-align:center;
+}
+
+#bs-example-navbar-collapse-1 ul.dropdown-menu a:hover{
+    color:white;
+    background-color:#337AB7;
+    
+}
+
+#hero{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:700px;
+    /*background-image:url("http://i.imgur.com/GNIbvst.png");*/
+    background-image: url("http://i.imgur.com/T8LNiTn.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align:center;
+    
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+}
+#hero #box-align{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+}
+
+#hero #box-align h1{
+    margin:0;
+    padding:0;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 3px 3px 4px #000;
+    font-weight: 700;
+    font-family: 'Lato',"Helvetica Neue", Helvetica, sans-serif;
+}
+#hero #box-align h3{
+    margin:10px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 4px #000;
+    font-weight: 100;
+    letter-spacing:0px;
+}
+
+#hero #box-align hr{
+    margin:0 auto;
+    width:40%;
+    padding:2em;
+}
+
+#hero #box-align .btn-primary{
+    margin:0;
+    padding:0;
+    font-size:25px;
+    font-weight:400;
+    width:158px;
+    height:45px;
+    line-height:45px;
+    color: white;
+    background-color: #F1433F;
+    border-color: white;
+}
+
+
+#service-buttons .btn.btn-primary{
+    margin:0;
+    padding:0.62em;
+    display:flex;
+    flex-flow:row nowrap;
+    width:auto;
+}
+
+
+
+
+
+
+
+#test.open > a > button > div > .caret {
+  border-top: 0px !important;
+  border-bottom: 4px dashed !important;
+}
+#mfg.open > a > button > div > .caret {
+  border-top: 0px !important;
+  border-bottom: 4px dashed !important;
+}
+#cic.open > a > button > div > .caret {
+  border-top: 0px !important;
+  border-bottom: 4px dashed !important;
+}
+
+#caret-box{
+    margin-left: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 20px;
+    height:20px;
+    color: #337ab7;
+    border-color: #2e6da4;
+}
+
+
+#row-one{
+    margin:0 auto;
+    padding:2em;
+}
+
+#row-two{
+    margin:0 auto;
+    padding:2em;
+    background:#F8F8F8;
+    
+}
+
+#row-two #thk-line{
+    margin:12px auto;
+    padding:0;
+    width:76%;
+    height:4px;
+    opacity:0.55;
+    background-color:grey;
+}
+
+#row-two ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style:none;
+    vertical-align:middle;
+}
+
+#row-two ul li{
+    padding:0.5em;
+}
+    
+/*Footer*/
+
+
+footer{
+    margin:0;
+    padding:2em;
+    width:100%;
+    background-color:#fa6820;
+}
+
+#contact{
+    margin:0 auto;
+    padding:0.5em;
+    width:240px;
+    height:auto;
+    color:white;
+}
+
+.contact-info{
+    margin:0;
+    padding:0;
+}
+
+#page-btm{
+    margin:0;
+    padding:0.75em;
+    width:100%;
+    height:auto;
+    background-color:white;
+    text-align:center;
+}
